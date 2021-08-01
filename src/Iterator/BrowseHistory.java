@@ -27,7 +27,7 @@ public class BrowseHistory implements Container{
         return new ListIterator(this);
     }
 
-    public class ListIterator implements Iterator{
+    private class ListIterator implements Iterator{
 
         private BrowseHistory history;
         int index;
